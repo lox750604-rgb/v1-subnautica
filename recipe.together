@@ -1,1 +1,20 @@
+{
+  "manifest_version": 1,
+  "id": "2a549e9a-c53a-49c1-8459-9cbed18c790f",
+  "primary": "subnautica-below-zero",
+  "companion": "ultrakill",
+  "requirements": [
+    {
+      "kind": "loader",
+      "id": "bepinex-5"
+    }
+  ],
+  "install": [
+    {
+      "source": "BepInEx/plugins/V1MovementPlugin.cs",
+      "destination": "BepInEx/plugins/V1MovementPlugin.cs",
+      "mode": "installed"
+    }
+  ]
+}
 
